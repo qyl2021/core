@@ -814,7 +814,7 @@ pilight==0.1.1
 # homeassistant.components.seven_segments
 # homeassistant.components.sighthound
 # homeassistant.components.tensorflow
-pillow==9.1.0
+pillow==9.2.0
 
 # homeassistant.components.plex
 plexapi==4.10.1
@@ -1626,3 +1626,5 @@ zwave-js-server-python==0.36.0
 
 # homeassistant.components.zwave_me
 zwave_me_ws==0.2.4
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+ujson>=5.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
